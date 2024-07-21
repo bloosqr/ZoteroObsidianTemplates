@@ -2,18 +2,25 @@
 
 category:LiteratureNote
 tags: 📥️/📜️/🟥️
-status: unread
 publish: true
 dateread:
-aliases: 
 
+aliases: 
   - {{title | replace(":", "") | replace("#", "") | replace("^", "") | replace("|", "") | replace("\[", "") | replace("\]", "") | replace("\\", "") | replace("/", "")}}
 
   - {{citekey}}
-
 <%"---"%>
 
-## Link
+{% persist "readStatus" %}
+{% if isFirstImport %}
+- [U] Read Status
+{% else %}
+{% endif %}
+{% endpersist %}
+
+
+{# Rest of your existing template #}
+
 > zotero_link:: {{pdfZoteroLink}}
 
 ## Cite
