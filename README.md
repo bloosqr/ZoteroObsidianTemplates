@@ -12,11 +12,17 @@ To get this to work
   Templater          : I am not sure you need this for this but you may because of all the dependencies ( will double check later)
   Zotero Integration : the key Template that makes all this work.
 
+
 (2) Place the Zotero Template.md file in your fault and point your Zotero Integration plugin at it 
     This is under the Zotero Integration plugin Settings -> Template File
+
+    
 (3) Under Settings -> Appearance -> CSS Snippets 
+
     add the zotero-read-status.css file
+    
 What this does is add the text to the right of the "Read Status" in each .md file
+
 (4) Think about how you want you want to create your summary sections as notes in Zotero. I am using PDFPals for this
 The only thing that is important here is there are notes that have headers that start with
 
