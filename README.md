@@ -26,7 +26,7 @@ To get this to work
     
 What this does is add the text to the right of the "Read Status" in each .md file
 
-(4) Think about how you want you want to create your summary sections as notes in Zotero. I am using PDFPals for this
+(4) Think about how you want you want to create your summary sections as notes in Zotero. I am using PDFPals for this.
 The only thing that is important here is there are notes that have headers that start with
 
   #Summary
