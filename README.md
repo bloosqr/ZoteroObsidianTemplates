@@ -30,14 +30,23 @@ What this does is add the text to the right of the "Read Status" in each .md fil
 The only thing that is important here is there are notes that have headers that start with
 
   #Summary
+  
   For the summary of the paper
+  
   #Hypothesis
+  
   For the hypothesis
+  
   #Methodology
+  
   For the methodology
+  
   #Result
+  
   For the main results of the paper
+  
   #Significance
+  
 
 You don't need all these fields, whether you have one or more. The template will fill in the fields for you in the .md file as you import.
 
