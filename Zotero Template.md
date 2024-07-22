@@ -3,7 +3,6 @@
 category:LiteratureNote
 tags: 📥️/📜️/🟥️
 publish: true
-dateread:
 
 aliases: 
   - {{title | replace(":", "") | replace("#", "") | replace("^", "") | replace("|", "") | replace("\[", "") | replace("\]", "") | replace("\\", "") | replace("/", "")}}
