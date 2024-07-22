@@ -52,7 +52,7 @@ You don't need all these fields, whether you have one or more. The template will
 
  (5) save the Literature Summary Script.md somewhere in your vault. This will pull the data for you and put it in a table.
 
-By default this script puts all the papers in a folder called "Literature" you should be able to edit the files to change this to something else if you'd like. 
+By default this script puts all the papers in a folder called "Literature". You should be able to edit the files to change this to something else if you'd like. 
 
 
 
