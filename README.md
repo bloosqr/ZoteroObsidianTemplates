@@ -6,14 +6,19 @@ To get this to work
 (1) I would install the following plugins
 
   Highlightr         : This makes the Zotero highlight colors work properly instead of all turning to yellow.  
+  
   Pandoc             : These make citations and citation pop ups all work nicely
+  
   Pandoc Reference List 
+  
   Tasks              : This allows you to track what papers to read
+  
   Templater          : I am not sure you need this for this but you may because of all the dependencies ( will double check later)
+  
   Zotero Integration : the key Template that makes all this work.
 
 
-(2) Place the Zotero Template.md file in your fault and point your Zotero Integration plugin at it 
+(2) Place the Zotero Template.md file in your fault and point your Zotero Integration plugin at it.
     This is under the Zotero Integration plugin Settings -> Template File
 
     
