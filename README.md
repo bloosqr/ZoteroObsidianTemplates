@@ -22,9 +22,7 @@ To get this to work
     This is under the Zotero Integration plugin Settings -> Template File
 
     
-(3) Under Settings -> Appearance -> CSS Snippets 
-
-    add the zotero-read-status.css file
+(3) Under Settings -> Appearance -> CSS Snippets  add the zotero-read-status.css file
     
 What this does is add the text to the right of the "Read Status" in each .md file
 
