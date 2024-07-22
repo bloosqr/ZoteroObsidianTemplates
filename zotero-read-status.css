@@ -1,0 +1,116 @@
+/* Save this as a CSS snippet, for example "custom-task-statuses.css" */
+
+/* Common styles for all custom task statuses */
+.markdown-preview-view ul > li.task-list-item[data-task="U"],
+.markdown-preview-view ul > li.task-list-item[data-task=">"],
+.markdown-preview-view ul > li.task-list-item[data-task="~"],
+.markdown-preview-view ul > li.task-list-item[data-task="R"] {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.markdown-preview-view ul > li.task-list-item[data-task="U"] .task-list-item-checkbox,
+.markdown-preview-view ul > li.task-list-item[data-task=">"] .task-list-item-checkbox,
+.markdown-preview-view ul > li.task-list-item[data-task="~"] .task-list-item-checkbox,
+.markdown-preview-view ul > li.task-list-item[data-task="R"] .task-list-item-checkbox {
+    margin-right: 8px;
+}
+
+.markdown-preview-view ul > li.task-list-item[data-task="U"]::after,
+.markdown-preview-view ul > li.task-list-item[data-task=">"]::after,
+.markdown-preview-view ul > li.task-list-item[data-task="~"]::after,
+.markdown-preview-view ul > li.task-list-item[data-task="R"]::after {
+    font-style: italic;
+    margin-left: 8px;
+    font-size: 0.9em;
+}
+
+/* Initial Task */
+.markdown-preview-view ul > li.task-list-item[data-task="U"] .task-list-item-checkbox {
+    background-color: #FF0000;
+    border-radius: 50%;
+}
+.markdown-preview-view ul > li.task-list-item[data-task="U"]::after {
+    content: "Initial Task";
+    color: #FF0000;
+}
+
+/* To Read */
+.markdown-preview-view ul > li.task-list-item[data-task=">"] .task-list-item-checkbox {
+    background-color: #FFA500;
+}
+.markdown-preview-view ul > li.task-list-item[data-task=">"]::after {
+    content: "To Read";
+    color: #FFA500;
+}
+
+/* In Progress */
+.markdown-preview-view ul > li.task-list-item[data-task="~"] .task-list-item-checkbox {
+    background-color: #1E90FF;
+}
+.markdown-preview-view ul > li.task-list-item[data-task="~"]::after {
+    content: "In Progress";
+    color: #1E90FF;
+}
+
+/* Read */
+.markdown-preview-view ul > li.task-list-item[data-task="R"] .task-list-item-checkbox {
+    background-color: #32CD32;
+}
+.markdown-preview-view ul > li.task-list-item[data-task="R"]::after {
+    content: "Read";
+    color: #32CD32;
+}
+/* Save this as a CSS snippet, for example "custom-task-statuses.css" */
+
+/* Common styles for all custom task statuses */
+.markdown-preview-view ul > li.task-list-item[data-task="U"],
+.markdown-preview-view ul > li.task-list-item[data-task=">"],
+.markdown-preview-view ul > li.task-list-item[data-task="~"],
+.markdown-preview-view ul > li.task-list-item[data-task="R"] {
+    position: relative;
+    padding-left: 24px; /* Adjust this value if needed */
+}
+
+.markdown-preview-view ul > li.task-list-item[data-task="U"]::before,
+.markdown-preview-view ul > li.task-list-item[data-task=">"]::before,
+.markdown-preview-view ul > li.task-list-item[data-task="~"]::before,
+.markdown-preview-view ul > li.task-list-item[data-task="R"]::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.markdown-preview-view ul > li.task-list-item[data-task="U"]::after,
+.markdown-preview-view ul > li.task-list-item[data-task=">"]::after,
+.markdown-preview-view ul > li.task-list-item[data-task="~"]::after,
+.markdown-preview-view ul > li.task-list-item[data-task="R"]::after {
+    font-style: italic;
+    margin-left: 8px; /* Space between task content and status text */
+    display: inline-block;
+}
+
+/* Unread */
+.markdown-preview-view ul > li.task-list-item[data-task="U"]::after {
+    content: "Unread";
+    color: #808080;
+}
+
+/* To Read */
+.markdown-preview-view ul > li.task-list-item[data-task=">"]::after {
+    content: "To Read";
+    color: #FFA500;
+}
+
+/* In Progress */
+.markdown-preview-view ul > li.task-list-item[data-task="~"]::after {
+    content: "In Progress";
+    color: #1E90FF;
+}
+
+/* Read */
+.markdown-preview-view ul > li.task-list-item[data-task="R"]::after {
+    content: "Read";
+    color: #32CD32;
+}
