@@ -52,6 +52,86 @@ You don't need all these fields, whether you have one or more. The template will
 
  (5) save the Literature Summary Script.md somewhere in your vault. This will pull the data for you and put it in a table.
 
+ (6) In the task Manager you need to add 4 custom Statuses.
+  
+    Go to Settings->Tasks-> Custom Statuses
+
+    Click Add New Task Status
+
+    The first one has the following settings:
+
+         Task Status Symbol: U 
+
+         Task Status Name:Unread
+
+         Next Task Status Symbol: >
+
+         Task Status Type: NON_TASK
+
+    The second one has the following settings:
+
+         Task Status Symbol: >
+
+         Task Status Name: To Read
+
+         Next Task Status Symbole: ~
+
+         Task Status Type: TODO
+
+    The third one has the following settings:
+
+        Task Status Symbol: ~
+
+        Task Status Name: In Progress
+
+        Next Status Symbol: R
+
+        Task Status Type: In Progress
+
+    The last one has the following settings:
+
+        Task Status Symbol: R
+
+        Task Status Name: Read
+
+        Task Next Status Symbol: U
+
+        Task Status Type: DONE
+
+      One thing I noticed is a lot of themes use these symbols so so the images might be weird. I am using the Blue Topaz theme and the symbols that come out           look reasonable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 By default this script puts all the papers in a folder called "Literature". You should be able to edit the files to change this to something else if you'd like. 
 
 
