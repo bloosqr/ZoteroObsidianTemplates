@@ -120,7 +120,7 @@ aliases: 
 {{n.note}}
   {% elif regExpResults.test(n.note) %}
   
-### Result
+### Results
 
 {{n.note}}
   {% elif regExpSignificance.test(n.note) -%}
