@@ -18,7 +18,7 @@ To get this to work
   Zotero Integration : the key Template that makes all this work.
 
 
-(2) Place the Zotero Template.md file in your fault and point your Zotero Integration plugin at it.
+(2) Place the Zotero Template.md file in your Vault and point your Zotero Integration plugin at it.
     This is under the Zotero Integration plugin Settings -> Template File
 
     
